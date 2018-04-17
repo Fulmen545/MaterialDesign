@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">XYZ Reader</string>
+    <string name="welcome_xyz_reader">Welcome to XYZ Reader!</string>
+
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="transition_photo">transition_photo</string>
+    <string name="subhead">subhead</string>
+    <string name="subtitle">subtitle</string>
+    <string name="up">Up</string>
+    <string name="detail_text">This account is used for integration testing purposes and was
+locked to verify correct functionality of boon android application:
+More sign up with one device in 24 hours
+
+This account is used for integration testing purposes and card was
+locked to verify correct functionality of boon android application:
+Lock card after 3 wrong PINs entered
+
+This account is used for integration testing purposes and was
+locked to verify correct functionality of boon android application:
+Entering wrong password 3 times and locking the account
+
+This account is used for integration testing purposes and was
+closed to test Sign up process again </string>
+
+</resources>
