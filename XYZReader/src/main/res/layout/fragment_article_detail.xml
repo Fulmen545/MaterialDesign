@@ -32,7 +32,7 @@
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar_layout"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="@dimen/fragment_height"
         android:background="?colorPrimary">
 
         <android.support.design.widget.CollapsingToolbarLayout
@@ -76,6 +76,7 @@
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/app_bar"
+                android:paddingTop="@dimen/bar_padding"
                 android:layout_width="match_parent"
                 android:layout_height="?actionBarSize"
                 android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
@@ -85,22 +86,6 @@
 
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
-
-    <!--</com.example.xyzreader.ui.MaxWidthLinearLayout>-->
-    <!--</FrameLayout>-->
-    <!--</com.example.xyzreader.ui.ObservableScrollView>-->
-
-    <!--<ImageButton android:id="@+id/share_fab"-->
-    <!--android:stateListAnimator="@anim/fab_state_list_anim"-->
-    <!--android:background="@drawable/add_fab_background"-->
-    <!--android:layout_gravity="bottom|end"-->
-    <!--android:layout_marginRight="@dimen/fab_margin"-->
-    <!--android:layout_marginBottom="@dimen/fab_margin"-->
-    <!--android:layout_width="56dp"-->
-    <!--android:layout_height="56dp"-->
-    <!--android:src="@drawable/ic_share"-->
-    <!--android:elevation="@dimen/fab_elevation"-->
-    <!--android:contentDescription="@string/action_share" />-->
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/share_fab"
